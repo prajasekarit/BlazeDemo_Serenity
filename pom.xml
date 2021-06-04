@@ -13,8 +13,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<serenity.version>2.4.24</serenity.version>
-		<serenity.maven.version>2.4.24</serenity.maven.version>
+		<serenity.version>2.0.90</serenity.version>
+		<serenity.maven.version>2.0.90</serenity.maven.version>
 		<serenity.cucumber.version>1.9.49</serenity.cucumber.version>
 		<tags></tags>
 		<parallel.tests>1</parallel.tests>
@@ -28,18 +28,7 @@
 
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
-			<version>3.19.0</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-			<version>1.7.30</version>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.7.30</version>
+			<version>3.9.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -74,21 +63,9 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>net.java.dev.jna</groupId>
-			<artifactId>platform</artifactId>
-			<version>3.4.0</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>2.4.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-params</artifactId>
-			<version>5.7.1</version>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -99,7 +76,18 @@
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
-			<version>3.12.0</version>
+			<version>3.7</version>
+		</dependency>
+		<dependency>
+			<groupId>com.opera</groupId>
+			<artifactId>operadriver</artifactId>
+			<version>1.5</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.seleniumhq.selenium</groupId>
+					<artifactId>selenium-remote-driver</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 	</dependencies>
 
@@ -110,16 +98,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.2</version>
 				<configuration>
-					<includes>
-						<include>**/*Test.java</include>
-						<include>**/Test.java</include>
-						<include>**/*TestSuite.java</include>
-						<include>**/When*.java</include>
-					</includes>
-					<systemPropertyVariables>
-						<webdriver.base.url>{webdriver.base.url}</webdriver.base.url>
-						<webdriver.driver>{webdriver.driver}</webdriver.driver>
-					</systemPropertyVariables>
+					<skip>true</skip>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -132,16 +111,47 @@
 				</configuration>
 			</plugin>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>2.22.2</version>
+				<configuration>
+					<includes>
+						<include>**/*Test.java</include>
+						<include>**/Test*.java</include>
+						<include>**/*TestSuite.java</include>
+						<include>**/When*.java</include>
+					</includes>
+					<systemPropertyVariables>
+						<webdriver.base.url>{webdriver.base.url}</webdriver.base.url>
+						<webdriver.driver>{webdriver.driver}</webdriver.driver>
+					</systemPropertyVariables>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
 				<groupId>net.serenity-bdd.maven.plugins</groupId>
 				<artifactId>serenity-maven-plugin</artifactId>
 				<version>${serenity.maven.version}</version>
 				<configuration>
 					<tags>${tags}</tags>
+					<reports>email</reports>
 				</configuration>
 				<dependencies>
 					<dependency>
 						<groupId>net.serenity-bdd</groupId>
 						<artifactId>serenity-core</artifactId>
+						<version>${serenity.version}</version>
+					</dependency>
+					<dependency>
+						<groupId>net.serenity-bdd</groupId>
+						<artifactId>serenity-emailer</artifactId>
 						<version>${serenity.version}</version>
 					</dependency>
 				</dependencies>
