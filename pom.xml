@@ -9,7 +9,7 @@
 	<artifactId>Cucumber_Serenity</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>Cucumber_Serenity</name>
+	<name>BlaZe_Demo_Cucumber_Serenity</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
