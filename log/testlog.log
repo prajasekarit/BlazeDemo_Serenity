@@ -1,0 +1,104 @@
+2021-06-04 00:59:14,706 - net.thucydides.core.steps.ConsoleLoggingListener -INFO - [96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+[0m
+2021-06-04 00:59:14,750 - net.thucydides.core.steps.ConsoleLoggingListener -INFO - Test Suite Started: BlazeDemo Application Test
+2021-06-04 00:59:14,996 - net.thucydides.core.steps.BaseStepListener -WARN - testStarted: Validate the Home page of BlazeDemo Application/blazedemo-application-test;validate-the-home-page-of-blazedemo-application
+2021-06-04 00:59:15,017 - net.thucydides.core.steps.ConsoleLoggingListener -INFO - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Validate the Home page of BlazeDemo Application
+-------------------------------------------------------------------(blazedemo-application-test;validate-the-home-page-of-blazedemo-application)
+2021-06-04 00:59:15,209 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@4c060c8f
+2021-06-04 00:59:15,266 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6d6cb754
+2021-06-04 00:59:16,000 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7e4d2287
+2021-06-04 00:59:16,008 - net.thucydides.core.steps.ConsoleLoggingListener -INFO - [96mTEST PENDING[0m
+2021-06-04 00:59:16,013 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@8bffb8b
+2021-06-04 00:59:16,041 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@28348c6
+2021-06-04 00:59:16,059 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@f4cfd90
+2021-06-04 00:59:16,073 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@40298285
+2021-06-04 00:59:16,092 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@680d4a6a
+2021-06-04 00:59:16,125 - net.thucydides.core.steps.BaseStepListener -WARN - testFinished: Validate the Home page of BlazeDemo Application:Example: {text=Welcome to the Simple Travel Agency!, vacation=https://blazedemo.com/vacation.html} [Given User will launch the Website, And Valiadte the Header Welcome to the Simple Travel Agency!, When User click on the Destination link, Then webpage redirected to <Vacation> page, When User click the Travel the world Link, Then validate user navigated to BlazeDemo home page, And validate the departure and Destination city dropdowns are clickable]
+2021-06-04 00:59:16,126 - net.thucydides.core.steps.BaseStepListener -WARN - TestOutcomes: [Validate the Home page of BlazeDemo Application:Example: {text=Welcome to the Simple Travel Agency!, vacation=https://blazedemo.com/vacation.html} [Given User will launch the Website, And Valiadte the Header Welcome to the Simple Travel Agency!, When User click on the Destination link, Then webpage redirected to <Vacation> page, When User click the Travel the world Link, Then validate user navigated to BlazeDemo home page, And validate the departure and Destination city dropdowns are clickable]]
+2021-06-04 00:59:16,128 - net.thucydides.core.steps.BaseStepListener -WARN - Final testOutcomes: [Validate the Home page of BlazeDemo Application:Example: {text=Welcome to the Simple Travel Agency!, vacation=https://blazedemo.com/vacation.html} [Given User will launch the Website, And Valiadte the Header Welcome to the Simple Travel Agency!, When User click on the Destination link, Then webpage redirected to <Vacation> page, When User click the Travel the world Link, Then validate user navigated to BlazeDemo home page, And validate the departure and Destination city dropdowns are clickable]]
+2021-06-04 00:59:16,133 - net.thucydides.core.steps.ConsoleLoggingListener -ERROR - [91m
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Validate the Home page of BlazeDemo Application
+---------------------------------------------------------------------[0m
+2021-06-04 00:59:16,386 - net.thucydides.core.steps.ConsoleLoggingListener -ERROR - [91mTEST FAILED AT STEP Given User will launch the Website[0m
+2021-06-04 00:59:16,387 - net.thucydides.core.steps.ConsoleLoggingListener -ERROR - 
+2021-06-04 01:02:40,914 - net.thucydides.core.steps.ConsoleLoggingListener -INFO - [96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+[0m
+2021-06-04 01:02:40,944 - net.thucydides.core.steps.ConsoleLoggingListener -INFO - Test Suite Started: BlazeDemo Application Test
+2021-06-04 01:02:41,115 - net.thucydides.core.steps.BaseStepListener -WARN - testStarted: Validate the Home page of BlazeDemo Application/blazedemo-application-test;validate-the-home-page-of-blazedemo-application
+2021-06-04 01:02:41,134 - net.thucydides.core.steps.ConsoleLoggingListener -INFO - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Validate the Home page of BlazeDemo Application
+-------------------------------------------------------------------(blazedemo-application-test;validate-the-home-page-of-blazedemo-application)
+2021-06-04 01:02:41,299 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@ca66933
+2021-06-04 01:02:41,355 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@faa3fed
+2021-06-04 01:02:41,378 - net.thucydides.core.steps.ConsoleLoggingListener -INFO - [96mTEST PENDING[0m
+2021-06-04 01:02:41,391 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3e6f3bae
+2021-06-04 01:02:41,410 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@464a4442
+2021-06-04 01:02:41,424 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@41477a6d
+2021-06-04 01:02:41,440 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@30feffc
+2021-06-04 01:02:41,456 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@522b2631
+2021-06-04 01:02:41,473 - net.thucydides.core.steps.BaseStepListener -WARN - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6569dded
+2021-06-04 01:02:41,501 - net.thucydides.core.steps.BaseStepListener -WARN - testFinished: Validate the Home page of BlazeDemo Application:Example: {text=Welcome to the Simple Travel Agency!, vacation=https://blazedemo.com/vacation.html} [Given User will launch the Website, And Valiadte the Header Welcome to the Simple Travel Agency!, When User click on the Destination link, Then webpage redirected to <Vacation> page, When User click the Travel the world Link, Then validate user navigated to BlazeDemo home page, And validate the departure and Destination city dropdowns are clickable]
+2021-06-04 01:02:41,502 - net.thucydides.core.steps.BaseStepListener -WARN - TestOutcomes: [Validate the Home page of BlazeDemo Application:Example: {text=Welcome to the Simple Travel Agency!, vacation=https://blazedemo.com/vacation.html} [Given User will launch the Website, And Valiadte the Header Welcome to the Simple Travel Agency!, When User click on the Destination link, Then webpage redirected to <Vacation> page, When User click the Travel the world Link, Then validate user navigated to BlazeDemo home page, And validate the departure and Destination city dropdowns are clickable]]
+2021-06-04 01:02:41,503 - net.thucydides.core.steps.BaseStepListener -WARN - Final testOutcomes: [Validate the Home page of BlazeDemo Application:Example: {text=Welcome to the Simple Travel Agency!, vacation=https://blazedemo.com/vacation.html} [Given User will launch the Website, And Valiadte the Header Welcome to the Simple Travel Agency!, When User click on the Destination link, Then webpage redirected to <Vacation> page, When User click the Travel the world Link, Then validate user navigated to BlazeDemo home page, And validate the departure and Destination city dropdowns are clickable]]
+2021-06-04 01:02:41,506 - net.thucydides.core.steps.ConsoleLoggingListener -INFO - [96m
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Validate the Home page of BlazeDemo Application
+---------------------------------------------------------------------------------[0m
