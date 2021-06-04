@@ -12,7 +12,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 		// dryRun=false,
 		// monochrome=true,
 		plugin = { "pretty" }// ,
-// tags= {"@Smoke,@sanity, @regression"}
+        ,tags= {"@Test-1"}
 )
 
 public class TestRunner {

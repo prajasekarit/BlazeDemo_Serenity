@@ -122,8 +122,8 @@
 						<include>**/When*.java</include>
 					</includes>
 					<systemPropertyVariables>
-						<webdriver.base.url>{webdriver.base.url}</webdriver.base.url>
-						<webdriver.driver>{webdriver.driver}</webdriver.driver>
+						<webdriver.base.url>${webdriver.base.url}</webdriver.base.url>
+						<webdriver.driver>${webdriver.driver}</webdriver.driver>
 					</systemPropertyVariables>
 				</configuration>
 				<executions>

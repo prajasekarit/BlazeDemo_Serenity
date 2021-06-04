@@ -1,8 +1,8 @@
-pageObjects\ElementXpath.class
-stepLibrary\SLsCommon.class
-stepDefinitions\SDsHomePage.class
-pageObjects\POsCommon.class
-testRunner\TestRunner.class
-pageObjects\POsHomePage.class
-stepLibrary\SLsHomePage.class
+page\objects\POsCommon.class
+page\objects\POsHomePage.class
+test\runner\TestRunner.class
+page\objects\ElementXpath.class
+step\definitions\SDsHomePage.class
+step\library\SLsHomePage.class
+step\library\SLsCommon.class
 utilities\TestUtil.class
